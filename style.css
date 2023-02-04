@@ -1,28 +1,38 @@
-body{
-    background-color: blueviolet;
-}
-
-#form{
-    background-color: rgb(255, 255, 255);
-    width:25%;
-    border-radius: 4px;
-    margin:120px auto;
-    padding:50px;
-    box-shadow: 10px 10px 5px rgb(82, 11, 77);
-}
-
-#btn{
-    color:rgb(255, 255, 255);
-    background-color: rgb(108, 22, 189);
-    padding:10px;
-    font-size: large;
-    border-radius: 10px;
-}
-
-@media screen and (max-width: 570px) {
-    #form {
-      width: 65%;
-      margin-left:none;
-      padding:40px;
-    }
-  }
+ body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #c1b7b7;
+      }
+      #form {
+        width: 400px;
+        padding: 40px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px 0px #000;
+        text-align: center;
+      }
+      #form h1 {
+        margin-bottom: 40px;
+        font-size: 24px;
+        color: #333;
+      }
+      #user, #pass {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        border: none;
+        border-bottom: 2px solid #333;
+        outline: none;
+      }
+      #btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 25px;
+      }
